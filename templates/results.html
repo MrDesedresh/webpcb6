@@ -16,22 +16,22 @@
             text-decoration: none;
             display: inline-block;
             font-size: 16px;
-            border-radius: 5px; /* Скругленные углы */
-            cursor: pointer; /* Курсор в виде руки при наведении */
-            margin: 0 35px; /* Расстояние между кнопками */
-            transition: background-color 0.3s ease; /* Плавное изменение цвета при наведении */
+            border-radius: 5px; 
+            cursor: pointer; 
+            margin: 0 35px; 
+            transition: background-color 0.3s ease; 
         }
 
         .button:hover {
-            background-color: #287A51; /* Темнее при наведении */
+            background-color: #287A51; 
         }
 
         .button-container {
             display: flex;
             justify-content: space-between; /* Размещает кнопки равномерно */
             margin-top: 20px;
-            margin-bottom: 20px; /* Отступ снизу */
-            padding: 0 20px; /* Отступ по бокам */
+            margin-bottom: 20px; 
+            padding: 0 20px; 
         }
 </style>
 <body>
@@ -61,7 +61,7 @@
                     <h3>Материнская плата: {{ motherboard.name }}</h3>
                     <p>Сокет: {{ motherboard.socket }}</p>
                     <p>Тип RAM: {{ motherboard.ram_type }}</p>
-                    <!-- Добавьте другие сведения -->
+                    
                 </div>
                 {% endif %}
 
@@ -76,7 +76,7 @@
                 <div class="component-card">
                     <h3>GPU: {{ gpu.name }}</h3>
                     <p>Потребление энергии: {{ gpu.power_consumption }}</p>
-                    <!-- Добавьте другие сведения -->
+                    
                 </div>
                 {% endif %}
 
