@@ -93,7 +93,7 @@ body.dark-theme {
 /* Общие стили */
 body {
     background-color: #1e1e1e;
-    color: #e0e0e0; /* Общий цвет текста - почти белый */
+    color: #e0e0e0; 
     font-family: sans-serif;
     margin: 0;
     padding: 0;
@@ -110,7 +110,7 @@ header {
 }
 
 header h1 {
-    color: #ffffff; /* Белый заголовок */
+    color: #ffffff; 
     margin-bottom: 0;
     font-size: 2em;
 }
@@ -162,7 +162,7 @@ main {
 /* Белый текст в карточках! */
 .component-card p {
     margin-bottom: 5px;
-    color: #ffffff; /* Белый текст */
+    color: #ffffff;
     font-size: 0.9em;
 }
 
@@ -170,17 +170,17 @@ main {
     background-color: #500000; /* Очень темный красный фон */
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Более сильная тень */
-    border: 2px solid #ff4500; /* Ярко-оранжевая рамка */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); 
+    border: 2px solid #ff4500;
 }
 
 .errors h2 {
-    color: #ff4500; /* Ярко-оранжевый заголовок */
-    border-bottom: 2px solid #ff4500; /* Ярко-оранжевая линия */
+    color: #ff4500; 
+    border-bottom: 2px solid #ff4500; 
     padding-bottom: 10px;
     margin-bottom: 15px;
     font-size: 1.3em;
-    text-shadow: 0 0 5px #000; /* Тень для улучшения видимости */
+    text-shadow: 0 0 5px #000; 
 }
 
 .errors ul {
@@ -190,10 +190,10 @@ main {
 }
 
 .errors li {
-    color: #ff4500; /* Ярко-оранжевый текст ошибок */
+    color: #ff4500;
     margin-bottom: 5px;
-    font-size: 1.1em; /* Сделал шрифт чуть больше */
-    text-shadow: 0 0 3px #000; /* Тень для текста */
+    font-size: 1.1em; 
+    text-shadow: 0 0 3px #000; 
 }
 
 .success {
@@ -206,9 +206,9 @@ main {
     border: 1px solid #444;
 }
 .navigation {
-    display: flex; /* Размещаем кнопки в одну строку */
-    justify-content: space-around; /* Распределяем кнопки равномерно */
-    margin-top: 10px; /* Отступ от заголовка */
+    display: flex; 
+    justify-content: space-around; 
+    margin-top: 10px; 
 }
 
 .nav-button {
@@ -222,4 +222,4 @@ main {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 5px; /* Скругление углов */
+    border-radius: 5px; 
