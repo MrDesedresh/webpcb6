@@ -12,15 +12,15 @@ body {
     font-family: sans-serif;
     background-color: #222;
     color: #eee;
-    margin: 0; 
-    height: 100vh; 
+    margin: 0; /*  Важно: убираем отступы */
+    height: 100vh; /*  Важно: на всю высоту экрана */
     display: flex;
     flex-direction: column;
 }
 
 main {
-    flex: 1; 
-    padding: 20px;  
+    flex: 1; /* Важно: занимает все доступное пространство */
+    padding: 20px;  /* Добавляем отступы для контента */
 }
 
 /*  Стили для элементов страницы */
@@ -30,7 +30,8 @@ main {
     border-radius: 5px;
     margin: 20px auto;
     max-width: 1600px;
-    box-sizing: border-box; 
+    box-sizing: border-box; /*  Важно: чтобы padding не ломал ширину */
+}
 
 .calculator__title {
     text-align: center;
@@ -123,7 +124,7 @@ footer {
     padding: 10px;
     background-color: #333;
     color: #ccc;
-    margin-top: auto; 
+    margin-top: auto; /* Важно: прижимаем к низу */
 }
 
 /* Стили для сборок */
